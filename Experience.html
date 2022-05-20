@@ -141,9 +141,10 @@
 
         <div class="container">
           <div class="carousel-caption">
+          
             <h1>In his Early Years</h1>
-            <p>Max was a little WILD in his early years. Hitting hte Press on multiple continents.
-            <p>Check out his early years by clicking the button</p>
+            <centre> <img class="d-block mx-auto mb-4" src="assets/images/youngmax.jpg" alt="Early Years" width="20%" height="40%"></centre>
+              <p>Max was a little WILD in his early years. Hitting hte Press on multiple continents.
             </p>
             <p><a class="btn btn-lg btn-primary" href="#Second">Learn more</a></p>
           </div>
@@ -153,7 +154,8 @@
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>Max's Business Years.</h1>
+            <h1 class="text-center">Max's Business Years.</h1>
+            <img class="d-block mx-auto mb-4" src="assets/images/OldMax.jpg" alt="Early Years" width="40%" height="40%">
             <p>Some representative placeholder content for the third slide of this carousel. When Max was a little Older.</p>
             <p><a class="btn btn-lg btn-primary" href="#Third">Browse his Later Career</a></p>
           </div>
@@ -161,7 +163,7 @@
       </div>
     </div>
    
-    <!-- Left and right controls They Don't Work at the moment due to something looking in the wrong place for something -->
+    <!-- Left and right controls NOW WORKING !!! -->
     
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -183,19 +185,19 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+  <div class="container marketing" id="container">
 
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <img class="rounded-circle x-auto mb-4" src="assets/images/youngmax.jpg" alt="Max as a Young man" width="140" height="140">
+        <a href="#First"><img class="rounded-circle x-auto mb-4" src="assets/images/youngmax.jpg" alt="Max as a Young man" width="140" height="140"></a>
 
         <h2 class="fw-normal">Early Years</h2>
         <p>Click the button below to read more about Max's Early years in show business.</p>
         <p><a class="btn btn-secondary" href="#First">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="rounded-circle x-auto mb-4" src="assets/images/Max2.jfif" alt="Max as a Young man" width="140" height="140">
+        <a href="#Second"><img class="rounded-circle x-auto mb-4" src="assets/images/Max2.jfif" alt="Max as a Young man" width="140" height="140"></a>
 
         <h2 class="fw-normal">Fun Times</h2>
         <p>Another exciting bit of representative content. this second column will tell you more about Max in his 20s.</p>
@@ -203,12 +205,14 @@
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
 
-        <img class="rounded-circle x-auto mb-4" src="assets/images/Max1.webp" alt="Max as a Young man" width="140" height="140">
+        <a href="#Third"><img class="rounded-circle x-auto mb-4" src="assets/images/Max1.webp" alt="Max as a Young man" width="140" height="140"></a>
         <h2 class="fw-normal">Serious Business</h2>
         <p>And lastly this, the third column will lead you to his Serious Business Career</p>
         <p><a class="btn btn-secondary" href="#Third">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
+
+
 
 
     <!-- START THE FEATURETTES -->
