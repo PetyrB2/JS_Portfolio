@@ -1,2 +1,16 @@
 # JS_Portfolio
-A portfolio written using Javascript, Jquery (maybe), Axios (maybe), Bootstrap, HTML &amp; CSS(probably)
+Javascript Portfolio
+--------------------
+by Peter Broadbent
+
+
+A portfolio written using 
+-------------------------
+Javascript
+Jquery
+Axios
+Bootstrap
+HTML
+CSS
+
+

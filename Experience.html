@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors and edited by Peter Broadbent for his own amusement">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Max's Carousel</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    
+
+    
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+
+        <!-- Top Nav for this template -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Max Headroom's Experiences</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="FakeNews.html">Fake Maxs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About Max</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html#Contact">About Max</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="Javascript.html">Interactive Max</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+        <!-- Top Nav for this template -->
+        
+<main>
+    <p id="#Top"></p>
+
+
+ <!-- MY CAROUSEL Something in looking in the wrong place-->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+             <centre> <img class="d-block mx-auto mb-4" src="assets/images/R.jfif" alt="" width="40%" height="40%"></centre>
+            <p>Max started out his career in a Head with lots of Room which he began to fill rapidly..... Click the button to find out more</p>
+            <p><a class="btn btn-lg btn-primary" href="#First">Read More</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>In his Early Years</h1>
+            <p>Max was a little WILD in his early years. Hitting hte Press on multiple continents.
+            <p>Check out his early years by clicking the button</p>
+            </p>
+            <p><a class="btn btn-lg btn-primary" href="#Second">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Max's Business Years.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel. When Max was a little Older.</p>
+            <p><a class="btn btn-lg btn-primary" href="#Third">Browse his Later Career</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- Left and right controls They Don't Work at the moment due to something looking in the wrong place for something -->
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+  
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="rounded-circle x-auto mb-4" src="assets/images/youngmax.jpg" alt="Max as a Young man" width="140" height="140">
+
+        <h2 class="fw-normal">Early Years</h2>
+        <p>Click the button below to read more about Max's Early years in show business.</p>
+        <p><a class="btn btn-secondary" href="#First">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle x-auto mb-4" src="assets/images/Max2.jfif" alt="Max as a Young man" width="140" height="140">
+
+        <h2 class="fw-normal">Fun Times</h2>
+        <p>Another exciting bit of representative content. this second column will tell you more about Max in his 20s.</p>
+        <p><a class="btn btn-secondary" href="#Second">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+
+        <img class="rounded-circle x-auto mb-4" src="assets/images/Max1.webp" alt="Max as a Young man" width="140" height="140">
+        <h2 class="fw-normal">Serious Business</h2>
+        <p>And lastly this, the third column will lead you to his Serious Business Career</p>
+        <p><a class="btn btn-secondary" href="#Third">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+    <!-- In Page LInk to My FIRST personalised Container-->
+    <p id="First"></p>
+    <!-- In Page LInk to My FIRST  personalised Container-->
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Max Headroom <br>The Early Years. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p  class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here. Max as a child and a young man.</p>
+        <p><a class="btn btn-lg btn-primary" href="#Top">Back to Top</a></p> 
+    </div>
+      <div class="col-md-5">
+        <img class="d-block mx-auto mb-4  mb-4 featurette-image img-fluid mx-auto" src="assets/images/youngmax.jpg" alt="Max as a Young man" width="500" height="500">
+
+      </div>
+    </div>
+    
+    <!-- In Page LInk to My Second  personalised Container-->
+    <p id="Second"></p>
+    <!-- In Page LInk to My Second  personalised Container-->
+    <hr class="featurette-divider">
+ 
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">More About Max's Experience</p>
+        <p class="lead">More About Max's Experience</p>
+        <p class="lead">More About Max's Experience</p>
+        <p><a class="btn btn-lg btn-primary" href="#Top">Back to Top</a></p> 
+    </div>
+      <div class="col-md-5 order-md-1">
+        <img class="d-block mx-auto mb-4 featurette-image img-fluid mx-auto" src="assets/images/Max2.jfif" alt="The Fun Years" role="img" width="500" height="500">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <p id="Third"></p>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Max's Serious Business.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Thgis is where all of Max's Serious Business will be displayed.</p>
+        <p><a class="btn btn-lg btn-primary" href="#Top">Back to Top</a></p>   
+    </div>
+      <div class="col-md-5">
+        <img class="d-block mx-auto mb-4 featurette-image img-fluid mx-auto" src="assets/images/OldMax.jpg" alt="Max as a Serious Business man" role="img" width="500" height="500">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2022 Max Headroom Company, Inc. &middot; <a href="#PrivacyStuff">Privacy</a> &middot; <a href="#Terms">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
